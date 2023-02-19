@@ -1,0 +1,26 @@
+[{
+    "name":"Paneer Tikka",
+    "price":400,
+    "img":"./images/paneer-tikka.jpg",
+    "description":"Paneer tikka is an Indian dish made from chunks of paneer marinated in spices and grilled in a tandoor"
+},{
+    "name":"Chicken Tikka",
+    "price":450,
+    "img":"./images/chicken-tikka.jpg",
+    "description":"Chicken tikka is a chicken dish originating in the Indian subcontinent during the Mughal era."
+},{
+    "name":"Chilli chicken",
+    "price":500,
+    "img":"./images/chilli-chicken.jpg",
+    "description":"Chilli chicken is a popular Indo-Chinese dish of chicken of Hakka Chinese heritage. In India, this may include a variety of dry chicken preparations."
+},{
+    "name":"Chicken Biryani",
+    "price":700,
+    "img":"./images/chicken-biryani.jpg",
+    "description":"Traditional chicken biryani is made by layering marinated chicken at the bottom of a pot followed by another layer of par cooked rice"
+},{
+    "name":"Chicken fried rice",
+    "price":650,
+    "img":"./images/chicken-fried-rice.jpg",
+    "description":"Chicken fried rice is a take-out classic and an easy weeknight meal! This easy recipe is made on the stovetop with chicken, eggs, onions, carrots, peas"
+}]
