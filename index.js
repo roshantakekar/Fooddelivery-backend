@@ -27,9 +27,9 @@ app.use("/getUserCartPrice",foodType,cartPriceRouter);
 
 //app.use()
 mongoose.set('strictQuery', true);
-mongoose.connect(process.env.mongoDB, {useNewUrlParser: true}, ()=>{
+mongoose.connect(process.env.MONGODB, {useNewUrlParser: true}, ()=>{
     console.log("DB Connected");
-    app.listen(process.env.PORT,(req,res)=>{
+    app.listen(process.env.PORT || 8080,(req,res)=>{
         console.log("server started...");
     }),(err)=>{
         console.log("Error")
