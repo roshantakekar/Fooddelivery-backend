@@ -28,7 +28,13 @@ confirmOrderRouter.get('/', async (req, res) => {
 })
 
 confirmOrderRouter.get('/:userId', async (req, res) => {
-    console.log("confirmOrder");
+    console.log("confirmOrders");
+    const result = await confirmOrderModel.find({userRef:req.params.userId});
+    return res.send(result);
+})
+
+confirmOrderRouter.get('/getcurrentorder/:userId', async (req, res) => {
+    console.log("confirmOrders");
     const result = await confirmOrderModel.findById(req.params.userId);
     return res.send(result);
 })
